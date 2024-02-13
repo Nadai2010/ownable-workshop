@@ -1,6 +1,4 @@
-use ownable::counter::{
-    ICounterDispatcher, ICounterDispatcherTrait, IOwnableDispatcher, IOwnableDispatcherTrait
-};
+use ownable::counter::{IOwnableDispatcher, IOwnableDispatcherTrait};
 use super::utils::{deploy_contract, Accounts, Errors};
 use snforge_std::{start_prank, stop_prank, CheatTarget};
 
