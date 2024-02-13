@@ -1,6 +1,5 @@
-use ownable::counter::{
-    ICounterDispatcher, ICounterDispatcherTrait, IOwnableDispatcher, IOwnableDispatcherTrait
-};
+use ownable::ownable::{IOwnableDispatcher, IOwnableDispatcherTrait};
+use ownable::counter::{ICounterDispatcher, ICounterDispatcherTrait};
 use super::utils::{deploy_contract, Accounts, Errors};
 
 #[test]
